@@ -1,0 +1,104 @@
+@import url(/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+    font-size: 62.5%;
+    --clr-highlight: hsl(75, 94%, 57%);
+    --clr-body-bg: hsl(0, 0%, 8%);
+    --clr-card-bg: hsl(0, 0%, 12%); 
+    --clr-button-bg: hsl(0, 0%, 20%); 
+    --clr-font: hsl(0, 0%, 100%);
+}
+
+body {
+    background-color: var(--clr-body-bg);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    color: var(--clr-font);
+}
+
+.content-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    min-width: 280px;
+    background-color: var(--clr-card-bg);
+    border-radius: 1rem;
+    padding: 3rem;
+
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.8rem;
+}
+
+.user-name-location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.avatar {
+    width: 11rem;
+    border-radius: 10rem;
+}
+
+.name {
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.location {
+    color: var(--clr-highlight);
+    font-weight: 700;
+}
+
+.quote {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.user-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.user-links button {
+    background-color: var(--clr-button-bg);
+    padding: 1rem 0 1rem 0;
+    min-width: 26rem;
+    color: var(--clr-font);
+    font-weight: 600;
+    border-radius: 0.8rem;
+    border: none;
+    cursor: pointer;
+}
+
+.user-links button:hover {
+    background-color: var(--clr-highlight);
+    color: var(--clr-button-bg);
+}
+
+
+
+
+
+
+
